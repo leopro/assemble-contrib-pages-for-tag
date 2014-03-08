@@ -1,0 +1,14 @@
+{
+  "name": "leopro.it",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "assemble": "^0.4.36",
+    "fs-extended": "^0.2.0",
+    "npm": "^1.4.4",
+    "install": "^0.1.7"
+  },
+  "dependencies": {
+  }
+}
