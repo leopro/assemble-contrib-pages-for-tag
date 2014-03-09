@@ -14,8 +14,8 @@ module.exports = function (grunt) {
                     plugins: ['./src/lib/tags-list.js']
                 },
                 files: [
-                  {expand: true, cwd: './src/pages', src: ['*.hbs'], dest: 'web/pages/', ext: '.html'},
-                  {expand: true, cwd: './src/pages/tag', src: ['*.hbs'], dest: 'web/pages/tag/', ext: '.html'}
+                  {expand: true, cwd: './src/pages/', src: ['*.hbs'], dest: 'web/pages/', ext: '.html'},
+                  {expand: true, cwd: './src/pages/tag/', src: ['*.hbs'], dest: 'web/pages/tag/', ext: '.html'}
                 ]
             }
         },
